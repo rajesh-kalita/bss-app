@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { TopNavComponent } from './navigation/top-nav/top-nav.component';
 import { SideNavComponent } from './navigation/side-nav/side-nav.component';
 import { FooterComponent } from './navigation/footer/footer.component';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { FooterComponent } from './navigation/footer/footer.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
