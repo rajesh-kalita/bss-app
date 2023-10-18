@@ -1,3 +1,3 @@
-export const baseURLDev = 'http://localhost:8080/';
+export const baseURLDev = 'http://127.0.0.1:8000/';
 
-export const get_all_employees = 'staff/all-employees/'
+export const get_all_employees = 'employees/'
